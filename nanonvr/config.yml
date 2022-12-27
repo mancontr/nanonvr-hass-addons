@@ -1,6 +1,6 @@
 name: "NanoNVR"
 description: "The tiniest NVR."
-version: "1.0.2"
+version: "1.0.3"
 slug: "nanonvr"
 url: "https://github.com/mancontr/nanonvr"
 image: "mancontr/nanonvr"
