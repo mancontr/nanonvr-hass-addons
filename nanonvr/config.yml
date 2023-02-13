@@ -1,11 +1,12 @@
 name: "NanoNVR"
 description: "The tiniest NVR."
-version: "1.0.4"
+version: "1.1.0"
 slug: "nanonvr"
 url: "https://github.com/mancontr/nanonvr"
 image: "mancontr/nanonvr"
 init: false
 ingress: true
+homeassistant_api: true
 panel_icon: mdi:cctv
 ports:
   21821/tcp: 21821
