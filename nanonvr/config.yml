@@ -1,6 +1,6 @@
 name: "NanoNVR"
 description: "The tiniest NVR."
-version: "1.4.2"
+version: "1.5.0"
 slug: "nanonvr"
 url: "https://github.com/mancontr/nanonvr"
 image: "mancontr/nanonvr"
@@ -8,6 +8,7 @@ init: false
 ingress: true
 homeassistant_api: true
 panel_icon: mdi:cctv
+panel_admin: false
 ports:
   21821/tcp: 21821
   21822/tcp: 21822
@@ -16,10 +17,9 @@ ports_description:
   21822/tcp: "FTP Data connection port"
 map:
   - config:rw
-  - share:rw
+  - media:rw
 services:
   - "mqtt:want"
 arch:
   - aarch64
   - amd64
-  - armv7
